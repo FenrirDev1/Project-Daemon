@@ -11,7 +11,7 @@ int main()
     //Setup Window
     InitWindow(Settings::screenWidth, Settings::screenHeight, "Project Daemon");
     if (Settings::Maximise) {
-        MaximizeWindow();
+        ToggleBorderlessWindowed();
     }
 
     SetTargetFPS(Settings::FPS);
@@ -31,6 +31,7 @@ int main()
         //Rendering
         BeginDrawing();
         EndDrawing();
+        ClearBackground(GREEN);
 
     }
 

@@ -61,7 +61,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="S_LuciferSkills.h">
       <Filter>Source Files\Characters\Lucifer\Skills</Filter>
     </None>
