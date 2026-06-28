@@ -1,6 +1,7 @@
 #pragma once
 
-//These are tile types
+//Enum list of all possible tiles
+
 constexpr enum TileType : int
 {
 	TILE_EMPTY,

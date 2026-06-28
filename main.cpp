@@ -3,6 +3,8 @@
 
 #include "Settings.h"
 
+#include "GameManager.h"
+
 int main()
 {
 
@@ -18,7 +20,10 @@ int main()
     SetExitKey(KEY_NULL);
 
 
-    while (!WindowShouldClose())
+    GameManager* game = new GameManager();
+
+
+    while (game->GameLoop())
     {
 
         //std::cout << "FPS: " << GetFPS() << std::endl;

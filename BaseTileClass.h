@@ -5,7 +5,7 @@
 class BaseTile
 {
 public:
-	Vector2 _TilePos;
+	int _TilePos;
 	TileType _TileType;
 
 private:
