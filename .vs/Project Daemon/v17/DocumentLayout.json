@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\BaseTileClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:BaseTileClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\TileTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:TileTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\USERS\\MLGFR\\DOCUMENTS\\@NOT GAMES\\PROJECT DAEMON\\PROJECT-DAEMON\\PACKAGES\\RAYLIB.5.5.0\\BUILD\\NATIVE\\INCLUDE\\RAYLIB.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:PACKAGES\\RAYLIB.5.5.0\\BUILD\\NATIVE\\INCLUDE\\RAYLIB.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Screens.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:Screens.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1CA4A692-E789-4A29-A550-2C1A8582FC27}|Project Daemon.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,17 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "raylib.h",
+              "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\packages\\raylib.5.5.0\\build\\native\\include\\raylib.h",
+              "RelativeDocumentMoniker": "packages\\raylib.5.5.0\\build\\native\\include\\raylib.h",
+              "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\packages\\raylib.5.5.0\\build\\native\\include\\raylib.h",
+              "RelativeToolTip": "packages\\raylib.5.5.0\\build\\native\\include\\raylib.h",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-28T03:54:55.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseTileClass.h",
+              "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\BaseTileClass.h",
+              "RelativeDocumentMoniker": "BaseTileClass.h",
+              "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\BaseTileClass.h",
+              "RelativeToolTip": "BaseTileClass.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-28T03:53:46.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TileTypes.h",
+              "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\TileTypes.h",
+              "RelativeDocumentMoniker": "TileTypes.h",
+              "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\TileTypes.h",
+              "RelativeToolTip": "TileTypes.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-28T03:39:32.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Level.cpp",
+              "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Level.cpp",
+              "RelativeDocumentMoniker": "Level.cpp",
+              "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Level.cpp",
+              "RelativeToolTip": "Level.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-28T03:36:49.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Level.h",
+              "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Level.h",
+              "RelativeDocumentMoniker": "Level.h",
+              "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Level.h",
+              "RelativeToolTip": "Level.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-28T03:36:39.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Screens.h",
+              "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Screens.h",
+              "RelativeDocumentMoniker": "Screens.h",
+              "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Screens.h",
+              "RelativeToolTip": "Screens.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-28T03:33:08.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.h",
+              "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Settings.h",
+              "RelativeDocumentMoniker": "Settings.h",
+              "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\Settings.h",
+              "RelativeToolTip": "Settings.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-28T03:13:45.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\mlgfr\\Documents\\@Not games\\Project Daemon\\Project-Daemon\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-28T03:08:19.074Z",
               "EditorCaption": ""

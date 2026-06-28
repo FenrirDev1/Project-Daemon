@@ -1,23 +1,32 @@
 #include <raylib.h>
+#include <iostream>
 
+#include "Settings.h"
 
 int main()
 {
-    const Color darkGreen = { 20, 160, 133, 255 };
 
-    constexpr int screenWidth = 800;
-    constexpr int screenHeight = 600;
+    //Setup Window
+    InitWindow(Settings::screenWidth, Settings::screenHeight, "Project Daemon");
+    if (Settings::Maximise) {
+        MaximizeWindow();
+    }
 
+    SetTargetFPS(Settings::FPS);
 
-    InitWindow(screenWidth, screenHeight, "My first RAYLIB program!");
-    SetTargetFPS(60);
+    //Disable exit key to enable pause menu
+    SetExitKey(KEY_NULL);
+
 
     while (!WindowShouldClose())
     {
 
+        //std::cout << "FPS: " << GetFPS() << std::endl;
+        
+        //Rendering
         BeginDrawing();
-        ClearBackground(darkGreen);
         EndDrawing();
+
     }
 
     CloseWindow();

@@ -126,7 +126,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Level.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseTileClass.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Screens.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="TileTypes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
