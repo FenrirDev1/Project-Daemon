@@ -12,6 +12,12 @@ constexpr enum PlayerCharacters {
 
 	//Ideas
 	//CHARACTER_ENGINE - Guass Inspired
+	//Charlie Disco
+	//Miku
+	//Space Marine
+	//Nier
+	//Naafiri
+	//Loki/Viego gimick
 	//
 
 	CHARACTER_MAX

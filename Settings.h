@@ -8,7 +8,11 @@ namespace Settings {
 	constexpr int screenHeight = 1080/2;
 
 	constexpr bool Maximise = false;
-	constexpr int FPS = 120;
+	constexpr int FPSTARGET = 120;
+	constexpr int UpdatesPerSecond = 5;
+
+	constexpr int ExitKey = KEY_DELETE;
+
 
 	//Input
 
