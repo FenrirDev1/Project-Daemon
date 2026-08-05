@@ -5,119 +5,63 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Source Files\Settings">
-      <UniqueIdentifier>{a8c46516-fd49-4685-8baa-62787860ac38}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Global Enums">
-      <UniqueIdentifier>{22aa8bf4-8f3b-4409-bb62-7979c4ca479f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Level">
-      <UniqueIdentifier>{435723c3-e650-4768-b0d4-e5d2d6b9fe8c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Level\Tile">
-      <UniqueIdentifier>{4f853ade-63ab-479f-8b64-c4874204dfc0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\HUD">
-      <UniqueIdentifier>{f6d367f5-82eb-4bbc-a4b6-cbbeade62481}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\GameManager">
-      <UniqueIdentifier>{3bc57eff-bdec-4272-b3dd-28d4b93dc309}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Main">
       <UniqueIdentifier>{e871e646-190b-4904-a771-b2cedf41456a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Assets">
       <UniqueIdentifier>{caa9ca96-12a9-45b3-b3c2-f6781dd592eb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Assets\Characters">
-      <UniqueIdentifier>{fada0012-3292-459a-bb9e-823c062a570b}</UniqueIdentifier>
+    <Filter Include="Source Files\%40ImportantStuff">
+      <UniqueIdentifier>{78298fde-813b-4697-9d93-7037762d09e3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Assets\Characters\Lucifer">
-      <UniqueIdentifier>{2ceef0cf-6563-4d5e-a1b4-1eb10781dcee}</UniqueIdentifier>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{03179b80-ab49-4c95-a6c0-e09c0464dc86}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Assets\Characters\Lucifer\SkillCards">
-      <UniqueIdentifier>{6cc05908-a94e-4a1a-adbf-39d231d4df4e}</UniqueIdentifier>
+    <Filter Include="Source Files\Managers\GameManager">
+      <UniqueIdentifier>{3bc57eff-bdec-4272-b3dd-28d4b93dc309}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Characters">
-      <UniqueIdentifier>{fc522162-2973-4319-af89-934978484c87}</UniqueIdentifier>
+    <Filter Include="Source Files\Managers\GridManager">
+      <UniqueIdentifier>{7373c070-6558-4a47-9a19-8b2e0f9728b5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Characters\%40baseclass">
-      <UniqueIdentifier>{dfd9cda9-85e2-4fd3-86f7-790e37ca9693}</UniqueIdentifier>
+    <Filter Include="Source Files\%40ImportantStuff\Settings">
+      <UniqueIdentifier>{a8c46516-fd49-4685-8baa-62787860ac38}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Characters\Lucifer">
-      <UniqueIdentifier>{a18b88e0-04f8-4364-8aca-f215dc7b9814}</UniqueIdentifier>
+    <Filter Include="Source Files\%40ImportantStuff\Global Enums">
+      <UniqueIdentifier>{22aa8bf4-8f3b-4409-bb62-7979c4ca479f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Characters\Lucifer\Skills">
-      <UniqueIdentifier>{d3f7407f-986e-4c0f-a1d5-0b50e6351e54}</UniqueIdentifier>
+    <Filter Include="Source Files\%40ImportantStuff\BaseClass">
+      <UniqueIdentifier>{fc8365c4-bf1e-4d2d-832c-1b62a17badd7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Characters\%40baseclass\Skills">
-      <UniqueIdentifier>{b4d09f12-5b68-49b9-9767-ba0b8f28d032}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Characters\Lucifer\Skills\Skill 1">
-      <UniqueIdentifier>{235de10b-02ec-4244-bf5b-00cb1461419d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\PlayerManager">
-      <UniqueIdentifier>{6228bacd-ed63-4d76-8906-358e5c39ae44}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="S_LuciferSkills.h">
-      <Filter>Source Files\Characters\Lucifer\Skills</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Settings.h">
-      <Filter>Source Files\Settings</Filter>
+      <Filter>Source Files\%40ImportantStuff\Settings</Filter>
     </ClInclude>
     <ClInclude Include="Screens.h">
-      <Filter>Source Files\Global Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="Level.h">
-      <Filter>Source Files\Level</Filter>
-    </ClInclude>
-    <ClInclude Include="TileTypes.h">
-      <Filter>Source Files\Global Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="BaseTileClass.h">
-      <Filter>Source Files\Level\Tile</Filter>
-    </ClInclude>
-    <ClInclude Include="Characters.h">
-      <Filter>Source Files\Global Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="HandManager.h">
-      <Filter>Source Files\HUD</Filter>
+      <Filter>Source Files\%40ImportantStuff\Global Enums</Filter>
     </ClInclude>
     <ClInclude Include="GameManager.h">
-      <Filter>Source Files\GameManager</Filter>
+      <Filter>Source Files\Managers\GameManager</Filter>
     </ClInclude>
-    <ClInclude Include="BaseCharacter.h">
-      <Filter>Source Files\Characters\%40baseclass</Filter>
+    <ClInclude Include="GridManager.h">
+      <Filter>Source Files\Managers\GridManager</Filter>
     </ClInclude>
-    <ClInclude Include="BaseSkill.h">
-      <Filter>Source Files\Characters\%40baseclass\Skills</Filter>
-    </ClInclude>
-    <ClInclude Include="E_LuciferSkills.h">
-      <Filter>Source Files\Characters\Lucifer\Skills</Filter>
-    </ClInclude>
-    <ClInclude Include="S_LuciferSkillOne.h">
-      <Filter>Source Files\Characters\Lucifer\Skills\Skill 1</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerManager.h">
-      <Filter>Source Files\PlayerManager</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyUnits.h">
-      <Filter>Source Files\Global Enums</Filter>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Source Files\%40ImportantStuff\BaseClass</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
-    <ClCompile Include="C_Lucifer.h">
-      <Filter>Source Files\Characters\Lucifer</Filter>
-    </ClCompile>
     <ClCompile Include="GameManager.cpp">
-      <Filter>Source Files\GameManager</Filter>
+      <Filter>Source Files\Managers\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Source Files\%40ImportantStuff\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GridManager.cpp">
+      <Filter>Source Files\Managers\GridManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

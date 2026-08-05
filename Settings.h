@@ -14,7 +14,13 @@ namespace Settings {
 	constexpr int ExitKey = KEY_DELETE;
 
 
-	//Input
+	//Grid
+
+	constexpr int GridWidth = 25;
+    constexpr int  GridHeight = 25;
+
+	constexpr int TileWidth = 20;
+	constexpr int TileHeight = 20;
 
 	
 

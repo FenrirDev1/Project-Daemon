@@ -26,20 +26,23 @@ int main()
     //Accumulated deltatime
     float accdt =0;
 
-
+    //Update per second calc
+    float updateTime = 1000.0f / Settings::UpdatesPerSecond;
    
     GameManager* game = new GameManager();
+    game->Initialise();
+
     while (game->WindowOpen())
     {
         BeginDrawing();
-        dt = GetFrameTime() *1000;
+        dt = GetFrameTime() * 1000;
 
         game->FramelessUpdate(dt);
 
         accdt += dt;
      
 
-        float updateTime = 1000.0f/Settings::UpdatesPerSecond;
+        
 
         if (accdt >= updateTime) {
             accdt = 0;

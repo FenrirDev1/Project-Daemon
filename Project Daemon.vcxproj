@@ -129,28 +129,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="S_LuciferSkills.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C_Lucifer.h" />
+    <ClCompile Include="BaseObject.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GridManager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseSkill.h" />
-    <ClInclude Include="BaseTileClass.h" />
-    <ClInclude Include="BaseCharacter.h" />
-    <ClInclude Include="Characters.h" />
-    <ClInclude Include="EnemyUnits.h" />
-    <ClInclude Include="E_LuciferSkills.h" />
+    <ClInclude Include="BaseObject.h" />
     <ClInclude Include="GameManager.h" />
-    <ClInclude Include="HandManager.h" />
-    <ClInclude Include="Level.h" />
-    <ClInclude Include="PlayerManager.h" />
-    <ClInclude Include="S_LuciferSkillOne.h" />
+    <ClInclude Include="GridManager.h" />
     <ClInclude Include="Screens.h" />
     <ClInclude Include="Settings.h" />
-    <ClInclude Include="TileTypes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

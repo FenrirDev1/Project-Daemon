@@ -1,11 +1,16 @@
 #include "GameManager.h"
 #include <raylib.h>
 
-void GameManager::IntialiseGame()
+void GameManager::Initialise()
 {
     // Create managers, load data etc
 
+
+#pragma region Grid
     
+    m_Grid = new GridManager;
+
+    m_Grid->Initialise();
 
     //Creating hardcoded tilemap
 
@@ -18,6 +23,8 @@ void GameManager::IntialiseGame()
     };
 
     
+#pragma endregion Grid
+
 
 }
 
@@ -34,7 +41,7 @@ bool GameManager::WindowOpen()
 
 void GameManager::PreUpdate()
 {
-    Input();
+  
 }
 
 void GameManager::Update()
@@ -47,7 +54,8 @@ void GameManager::PostUpdate()
 
 void GameManager::FramelessUpdate(float dt)
 {
-
+    Input();
+    m_Grid->FramelessUpdate(dt);
 }
 
 
@@ -56,5 +64,11 @@ void GameManager::Input()
 {
     if(IsKeyPressed(KEY_F11)) {
         ToggleBorderlessWindowed();
+    }
+
+    if (IsKeyPressed(KEY_SPACE)) {
+        Color temp = m_Grid->tile1_colour;
+         m_Grid->tile1_colour = m_Grid->tile2_colour;
+        m_Grid->tile2_colour = temp;
     }
 }
