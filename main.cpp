@@ -9,6 +9,7 @@
 
 int main()
 {
+    SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     //Setup Window
     InitWindow(Settings::screenWidth, Settings::screenHeight, "Project Daemon");
     if (Settings::Maximise) {
@@ -32,6 +33,13 @@ int main()
     GameManager* game = new GameManager();
     game->Initialise();
 
+
+
+    std::cout << "Reso height Mult " << CONVERTSCREENHEIGHTMULT << std::endl;
+    std::cout << "Reso Width Mult " << CONVERTSCREENWIDTHMULT << std::endl;
+
+
+
     while (game->WindowOpen())
     {
         BeginDrawing();
@@ -41,7 +49,7 @@ int main()
 
         accdt += dt;
      
-
+        
         
 
         if (accdt >= updateTime) {

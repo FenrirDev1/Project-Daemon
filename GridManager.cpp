@@ -39,19 +39,30 @@ void GridManager::PostUpdate()
 void GridManager::FramelessUpdate(float dt)
 {
 	bool seccolour = false;
+	float posx = 0;
+	float posy = 0;
+	float tilewid = 0;
+	float tilehi = 0;
 
 	for (int x = 0; x < gridwidth; x++)
 	{
 
 		for (int y = 0; y < gridheight; y++) {
 
+			tilewid = tilewidth * CONVERTSCREENWIDTHMULT;
+			tilehi = tileheight * CONVERTSCREENHEIGHTMULT;
+			posx = x * tilewid + CONVERTFROMGAMETOSCREENWIDTH(200);
+			posy = y * tilehi + CONVERTFROMGAMETOSCREENWIDTH(200);
+
+			
+
 			if (seccolour) {
 				seccolour = !seccolour;
-				DrawRectangle(x * tilewidth, y * tileheight, tilewidth, tileheight, tile2_colour);
+				DrawRectangle(posx, posy, tilewid, tilehi, tile2_colour);
 			}
 			else {
 				seccolour = !seccolour;
-				DrawRectangle(x * tilewidth, y * tileheight, tilewidth, tileheight, tile1_colour);
+				DrawRectangle(posx, posy, tilewid, tilehi, tile1_colour);
 			}
 		}
 	}

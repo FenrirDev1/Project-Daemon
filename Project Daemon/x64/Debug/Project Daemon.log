@@ -1,2 +1,10 @@
-﻿  GameManager.cpp
+﻿  GridManager.cpp
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(61,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(61,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(61,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(61,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(65,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(65,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(65,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(65,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Project Daemon.vcxproj -> C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\x64\Debug\Project Daemon.exe

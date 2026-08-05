@@ -1,5 +1,7 @@
 #include "GameManager.h"
 #include <raylib.h>
+#include "Settings.h"
+#include <iostream>
 
 void GameManager::Initialise()
 {
@@ -62,8 +64,14 @@ void GameManager::FramelessUpdate(float dt)
 
 void GameManager::Input()
 {
+    if (IsKeyPressed(KEY_X)) {
+        std::cout << "Reso height Mult " << CONVERTSCREENHEIGHTMULT << std::endl;
+        std::cout << "Reso Width Mult " << CONVERTSCREENWIDTHMULT << std::endl;
+    }
+
     if(IsKeyPressed(KEY_F11)) {
         ToggleBorderlessWindowed();
+        
     }
 
     if (IsKeyPressed(KEY_SPACE)) {
