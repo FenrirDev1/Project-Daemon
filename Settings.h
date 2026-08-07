@@ -15,11 +15,17 @@ namespace Settings {
 
 	//Grid
 
-	constexpr int GridWidth = 25;
-    constexpr int  GridHeight = 25;
+	constexpr int GridWidth = 11;
+    constexpr int  GridHeight = 11;
 
-	constexpr int TileWidth = 20;
-	constexpr int TileHeight = 20;
+	constexpr int TileWidth = 50;
+	constexpr int TileHeight = 50;
+
+	constexpr int GridStartPosW = 200;
+	constexpr int GridEndPosW = 1720;
+
+	constexpr int GridStartPosH = 200;
+	constexpr int GridEndPosH = 880;
 
 	
 
@@ -30,7 +36,10 @@ namespace Settings {
 #define GAMEWIDTH 1920.0f
 #define GAMEHEIGHT 1080.0f
 
+
+//Requires Raylib
 #define CONVERTSCREENWIDTHMULT (GetScreenWidth()/GAMEWIDTH)
+//Requires Raylib
 #define CONVERTSCREENHEIGHTMULT (GetScreenHeight()/GAMEHEIGHT)
 
 #define CONVERTFROMGAMETOSCREENWIDTH(game) game*CONVERTSCREENWIDTHMULT

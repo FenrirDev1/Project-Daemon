@@ -49,7 +49,8 @@ int main()
 
         accdt += dt;
      
-        
+        //DrawRectangle(CONVERTFROMGAMETOSCREENWIDTH((1920 - 200)), CONVERTFROMGAMETOSCREENHEIGHT(200), 100 * CONVERTSCREENWIDTHMULT, 100 * CONVERTSCREENHEIGHTMULT, RED);
+
         
 
         if (accdt >= updateTime) {

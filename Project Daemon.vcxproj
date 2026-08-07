@@ -133,6 +133,7 @@
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="GridManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseObject.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="GridManager.h" />
     <ClInclude Include="Screens.h" />
     <ClInclude Include="Settings.h" />
+    <ClInclude Include="Tile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

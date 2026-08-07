@@ -1,7 +1,6 @@
 #pragma once
-#include "BaseObject.h"
-#include <raylib.h>
-
+#include "Tile.h"
+#include "Settings.h"
 
 class GridManager : BaseObject {
 
@@ -9,8 +8,7 @@ private:
 
 	int tilewidth, tileheight, gridwidth,gridheight;
 
-
-
+	Tile* tiles[Settings::GridHeight * Settings::GridWidth];
 
 public:
 	Color tile1_colour = GREEN;
