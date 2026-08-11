@@ -34,15 +34,17 @@ bool GameManager::WindowOpen()
 
 void GameManager::PreUpdate()
 {
-  
+    m_Grid->PreUpdate();
 }
 
 void GameManager::Update()
 {
+    m_Grid->Update();
 }
 
 void GameManager::PostUpdate()
 {
+    m_Grid->PostUpdate();
 }
 
 void GameManager::FramelessUpdate(float dt)

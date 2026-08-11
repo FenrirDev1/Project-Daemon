@@ -2,6 +2,13 @@
 
 #include <raylib.h>
 #include "baseobject.h"
+#include "Settings.h"
+
+#define TILEABOVE GridPos - Settings::GridWidth
+#define TILEBELOW GridPos + Settings::GridWidth
+#define TILELEFT GridPos - 1
+#define TILERIGHT GridPos + 1
+
 
 class Tile :BaseObject {
 
@@ -12,17 +19,38 @@ private:
 
 public:
 
+	Tile* (&GridRef)[Settings::GridHeight * Settings::GridWidth];
+
+
+	bool hovered = false;
+
 	int GridPos;
 	Vector2 GridCord;
 	Vector2 GamePos;
 
 	float width, height;
 
-	Color Colour;
+	Color DefaultColour;
+	Color HighlightColour;
+	Color CurrentColour;
 
 
-	Tile(int GridPos, Vector2 GridCord,Vector2 GamePos, float width, float height, Color tileColour) : GridPos(GridPos), GridCord(GridCord),GamePos(GamePos), width(width), height(height), Colour(tileColour)
-	{};
+	Tile(Tile* (&GridRef)[Settings::GridHeight * Settings::GridWidth], int GridPos, Vector2 GridCord, Vector2 GamePos, float width, float height, Color tileColour) : GridRef(GridRef), GridPos(GridPos), GridCord(GridCord), GamePos(GamePos), width(width), height(height), DefaultColour(tileColour)
+	{
+		Initialise();
+	};
+
+
+	//QueryFunctions
+
+	//Returns Null if out of bounds
+	Tile* GetTileRight();
+	//Returns Null if out of bounds
+	Tile* GetTileLeft();
+	//Returns Null if out of bounds
+	Tile* GetTileAbove();
+	//Returns Null if out of bounds
+	Tile* GetTileBelow();
 
 
 	//Frame based Updates

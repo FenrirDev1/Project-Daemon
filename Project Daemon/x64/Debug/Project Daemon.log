@@ -1,44 +1,12 @@
-﻿  GameManager.cpp
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(27,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
-  (compiling source file 'GameManager.cpp')
-  
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(30,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
-  (compiling source file 'GameManager.cpp')
-  
-  GridManager.cpp
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(27,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
-  (compiling source file 'GridManager.cpp')
-  
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(30,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
-  (compiling source file 'GridManager.cpp')
-  
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(23,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(24,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(44,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(44,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(49,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\GridManager.cpp(49,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Tile.cpp
+﻿  Tile.cpp
 C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(27,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
   (compiling source file 'Tile.cpp')
   
 C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(30,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
   (compiling source file 'Tile.cpp')
   
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  main.cpp
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(27,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(30,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
-  (compiling source file 'main.cpp')
-  
-  Generating Code...
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(67,136): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(67,99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(67,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(67,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Project Daemon.vcxproj -> C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\x64\Debug\Project Daemon.exe

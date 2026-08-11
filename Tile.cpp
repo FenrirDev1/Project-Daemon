@@ -5,14 +5,57 @@
 
 void Tile::Initialise()
 {
+	HighlightColour = RED;
+	CurrentColour = DefaultColour;
+}
+
+Tile* Tile::GetTileRight()
+{
+	if (GridPos != (Settings::GridWidth * Settings::GridHeight) && !((GridPos + 1) % Settings::GridWidth == 0)) {
+		return GridRef[TILERIGHT];
+	}
+	return nullptr;
+}
+
+Tile* Tile::GetTileLeft()
+{
+	if (GridPos != 0 && !((GridPos) % Settings::GridWidth == 0)) {
+		return GridRef[TILELEFT];
+	}
+	return nullptr;
+}
+Tile* Tile::GetTileAbove()
+{
+	if (GridPos >= Settings::GridWidth) {
+		return GridRef[TILEABOVE];
+	}
+	return nullptr;
+}
+Tile* Tile::GetTileBelow()
+{
+	if (GridPos < (Settings::GridWidth * Settings::GridHeight) - Settings::GridWidth) {
+		return GridRef[TILEBELOW];
+	}
+	
+	return nullptr;
 }
 
 void Tile::PreUpdate()
 {
+	if (hovered) {
+		CurrentColour = HighlightColour;
+		
+	}
+	else {
+		CurrentColour = DefaultColour;
+	}
+
+
 }
 
 void Tile::Update()
 {
+
 }
 
 void Tile::PostUpdate()
@@ -21,15 +64,14 @@ void Tile::PostUpdate()
 
 void Tile::FramelessUpdate(float dt)
 {
-
+	DrawRectangle(CONVERTFROMGAMETOSCREENWIDTH(GamePos.x), CONVERTFROMGAMETOSCREENHEIGHT(GamePos.y), CONVERTFROMGAMETOSCREENWIDTH(width), CONVERTFROMGAMETOSCREENHEIGHT(height), CurrentColour);
 
 	if ((MOUSEPOS.x <= GamePos.x + width) && (MOUSEPOS.x >= GamePos.x) && (MOUSEPOS.y <= GamePos.y + height) && (MOUSEPOS.y >= GamePos.y))
 	{
-		
-		DrawRectangle(CONVERTFROMGAMETOSCREENWIDTH(GamePos.x), CONVERTFROMGAMETOSCREENHEIGHT(GamePos.y), CONVERTFROMGAMETOSCREENWIDTH(width), CONVERTFROMGAMETOSCREENHEIGHT(height), RED);
+		hovered = true;
 	}
 	else {
-		
-		DrawRectangle(CONVERTFROMGAMETOSCREENWIDTH(GamePos.x), CONVERTFROMGAMETOSCREENHEIGHT(GamePos.y), CONVERTFROMGAMETOSCREENWIDTH(width), CONVERTFROMGAMETOSCREENHEIGHT(height), Colour);
+		hovered = false;
 	}
+
 }

@@ -41,12 +41,12 @@ void GridManager::Initialise()
 
 			if (seccolour) {
 				seccolour = !seccolour;
-				tiles[tileNo] = new Tile(tileNo, Vector2{ (float)x,(float)y }, Vector2{ posx,posy }, tilewidth, tileheight, tile2_colour);
+				tiles[tileNo] = new Tile(tiles, tileNo, Vector2{(float)x,(float)y}, Vector2{posx,posy}, tilewidth, tileheight, tile2_colour);
 
 			}
 			else {
 				seccolour = !seccolour;
-				tiles[tileNo] = new Tile(tileNo, Vector2{ (float)x,(float)y }, Vector2{ posx,posy }, tilewidth, tileheight, tile1_colour);
+				tiles[tileNo] = new Tile(tiles,tileNo, Vector2{ (float)x,(float)y }, Vector2{ posx,posy }, tilewidth, tileheight, tile1_colour);
 			}
 			tileNo++;
 		}

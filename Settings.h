@@ -10,7 +10,7 @@ namespace Settings {
 
 	constexpr bool Maximise = false;
 	constexpr int FPSTARGET = 120;
-	constexpr int UpdatesPerSecond = 5;
+	constexpr int UpdatesPerSecond = FPSTARGET;
 
 	constexpr int ExitKey = KEY_DELETE;
 
