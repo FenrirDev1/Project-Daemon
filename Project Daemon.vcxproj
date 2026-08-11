@@ -133,6 +133,7 @@
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="GridManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mouse.cpp" />
     <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +141,7 @@
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="GridManager.h" />
     <ClInclude Include="HelperMacros.h" />
+    <ClInclude Include="Mouse.h" />
     <ClInclude Include="Settings.h" />
     <ClInclude Include="Tile.h" />
   </ItemGroup>

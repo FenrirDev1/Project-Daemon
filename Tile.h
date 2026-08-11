@@ -19,6 +19,8 @@ private:
 
 public:
 
+	Vector2* mousePos;
+
 	Tile* (&GridRef)[Settings::GridHeight * Settings::GridWidth];
 
 

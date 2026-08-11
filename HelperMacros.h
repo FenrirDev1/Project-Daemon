@@ -20,10 +20,10 @@
 
 //Source for virtual mouse math https://github.com/raysan5/raylib/blob/master/examples/core/core_window_letterbox.c
 
-//Non Rendered, Don't use unless having a reason -> Requires Raylib
+//Non Render scaled, Don't use unless having a reason -> Requires Raylib
 #define RAWMOUSEPOS GetMousePosition()
 
 #define MOUSEPOSUNCLAMPED Vector2{(RAWMOUSEPOS.x - (GetScreenWidth() - (GAMEWIDTH * (float)GetScreenWidth()/GAMEWIDTH)) * 0.5f) / RENDERSCALE,(RAWMOUSEPOS.y - (GetScreenHeight() - (GAMEHEIGHT * (float)GetScreenHeight()/GAMEHEIGHT)) * 0.5f) / RENDERSCALE}
 
-//Requires Raylib
+//Use MouseManager's var instead unless you need this. Needs Raymath
 #define MOUSEPOS Vector2Clamp(MOUSEPOSUNCLAMPED,Vector2{ 0, 0 }, Vector2{ (float)GAMEWIDTH, (float)GAMEHEIGHT })

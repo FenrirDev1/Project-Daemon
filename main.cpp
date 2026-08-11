@@ -5,7 +5,7 @@
 
 #include "GameManager.h"
 
-#include <raymath.h>
+#include "Mouse.h"
 
 
 int main()
@@ -34,7 +34,7 @@ int main()
     GameManager* game = new GameManager();
     game->Initialise();
 
-
+    Mousemanager* mouse = Mousemanager::Instance();
 
 
     std::cout << "Render Scale" << RENDERSCALE << std::endl;
@@ -46,6 +46,7 @@ int main()
         BeginDrawing();
         dt = GetFrameTime() * 1000;
 
+        mouse->FramelessUpdate(dt);
         game->FramelessUpdate(dt);
 
         accdt += dt;
@@ -56,8 +57,16 @@ int main()
         if (accdt >= updateTime) {
             accdt = 0;
 
+            //PreUpdate
+            mouse->PreUpdate();
             game->PreUpdate();
+
+            //Update
+            mouse->Update();
             game->Update();
+
+            //PostUpdate
+            mouse->PostUpdate();
             game->PostUpdate();
         }
 

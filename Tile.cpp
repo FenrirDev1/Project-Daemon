@@ -1,10 +1,11 @@
 #include "Tile.h"
 #include "Settings.h"
-#include <raymath.h>
+#include "Mouse.h"
 #include <iostream>
 
 void Tile::Initialise()
 {
+	mousePos = &Mousemanager::Instance()->MousePos;
 	HighlightColour = RED;
 	CurrentColour = DefaultColour;
 }
@@ -66,7 +67,9 @@ void Tile::FramelessUpdate(float dt)
 {
 	DrawRectangle(CONVERTFROMGAMETOSCREENWIDTH(GamePos.x), CONVERTFROMGAMETOSCREENHEIGHT(GamePos.y), CONVERTFROMGAMETOSCREENWIDTH(width), CONVERTFROMGAMETOSCREENHEIGHT(height), CurrentColour);
 
-	if ((MOUSEPOS.x <= GamePos.x + width) && (MOUSEPOS.x >= GamePos.x) && (MOUSEPOS.y <= GamePos.y + height) && (MOUSEPOS.y >= GamePos.y))
+	
+
+	if ((mousePos->x <= GamePos.x + width) && (mousePos->x >= GamePos.x) && (mousePos->y <= GamePos.y + height) && (mousePos->y >= GamePos.y))
 	{
 		hovered = true;
 	}

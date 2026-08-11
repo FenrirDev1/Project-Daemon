@@ -5,9 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Source Files\Main">
-      <UniqueIdentifier>{e871e646-190b-4904-a771-b2cedf41456a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Assets">
       <UniqueIdentifier>{caa9ca96-12a9-45b3-b3c2-f6781dd592eb}</UniqueIdentifier>
     </Filter>
@@ -41,6 +38,15 @@
     <Filter Include="Source Files\%40ImportantStuff\Global Var">
       <UniqueIdentifier>{99b39f37-312e-404f-97df-54be4d61e40a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\NonGame">
+      <UniqueIdentifier>{c18aeebb-41d5-40bc-8414-5c25c134c4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\%40ImportantStuff\Main">
+      <UniqueIdentifier>{e871e646-190b-4904-a771-b2cedf41456a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NonGame\MouseManager">
+      <UniqueIdentifier>{d61c04d1-4158-40b6-9e0f-5b4eff44826e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Settings.h">
@@ -61,10 +67,13 @@
     <ClInclude Include="HelperMacros.h">
       <Filter>Source Files\%40ImportantStuff\Settings</Filter>
     </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Source Files\NonGame\MouseManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files\Main</Filter>
+      <Filter>Source Files\%40ImportantStuff\Main</Filter>
     </ClCompile>
     <ClCompile Include="GameManager.cpp">
       <Filter>Source Files\Game\GameManager</Filter>
@@ -77,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="Tile.cpp">
       <Filter>Source Files\Game\Grid\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\NonGame\MouseManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
