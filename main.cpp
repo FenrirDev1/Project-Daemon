@@ -35,8 +35,8 @@ int main()
 
 
 
-    std::cout << "Reso height Mult " << CONVERTSCREENHEIGHTMULT << std::endl;
-    std::cout << "Reso Width Mult " << CONVERTSCREENWIDTHMULT << std::endl;
+
+    std::cout << "Render Scale" << RENDERSCALE << std::endl;
 
 
 

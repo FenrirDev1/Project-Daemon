@@ -17,9 +17,6 @@ void GridManager::Initialise()
 	bool seccolour = false;
 	float posx = 0;
 	float posy = 0;
-	float tilewid = 0;
-	float tilehi = 0;
-	float mult = std::min(CONVERTSCREENWIDTHMULT, CONVERTSCREENHEIGHTMULT);
 	int tileNo = 0;
 
 	for (int y = 0; y < gridheight; y++) 
@@ -28,8 +25,8 @@ void GridManager::Initialise()
 		for (int x = 0; x < gridwidth; x++)
 		{
 
-			posx = Settings::GridStartPosW + (tilewidth * x);
-			posy = Settings::GridStartPosH + (tileheight * y);
+			posx = (Settings::GridStartPosW)+(tilewidth * x);
+			posy = (Settings::GridStartPosH)+(tileheight * y);
 
 
 			if (seccolour) {

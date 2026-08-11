@@ -1,5 +1,7 @@
 #pragma once
 
+#include "HelperMacros.h"
+
 //Change to file reading later -> XML most likely
 
 namespace Settings {
@@ -22,25 +24,14 @@ namespace Settings {
 	constexpr int TileHeight = 50;
 
 	constexpr int GridStartPosW = 200;
-	constexpr int GridEndPosW = 1720;
+	constexpr int GridEndPosW = GAMEWIDTH - 200;
 
 	constexpr int GridStartPosH = 200;
-	constexpr int GridEndPosH = 880;
+	constexpr int GridEndPosH = GAMEHEIGHT - 200;
+
 
 	
 
 
 
 }
-
-#define GAMEWIDTH 1920.0f
-#define GAMEHEIGHT 1080.0f
-
-
-//Requires Raylib
-#define CONVERTSCREENWIDTHMULT (GetScreenWidth()/GAMEWIDTH)
-//Requires Raylib
-#define CONVERTSCREENHEIGHTMULT (GetScreenHeight()/GAMEHEIGHT)
-
-#define CONVERTFROMGAMETOSCREENWIDTH(game) game*CONVERTSCREENWIDTHMULT
-#define CONVERTFROMGAMETOSCREENHEIGHT(game) game*CONVERTSCREENHEIGHTMULT

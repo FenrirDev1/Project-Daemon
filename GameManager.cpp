@@ -1,5 +1,6 @@
 #include "GameManager.h"
 #include <raylib.h>
+#include <raymath.h>
 #include "Settings.h"
 #include <iostream>
 
@@ -65,9 +66,14 @@ void GameManager::FramelessUpdate(float dt)
 
 void GameManager::Input()
 {
+    
+
+    //std::cout << "MOUSEPOS X " << MOUSEPOS.x << "MOUSEPOS Y" << MOUSEPOS.y << std::endl;
+    
+    
+
     if (IsKeyPressed(KEY_X)) {
-        std::cout << "Reso height Mult " << CONVERTSCREENHEIGHTMULT << std::endl;
-        std::cout << "Reso Width Mult " << CONVERTSCREENWIDTHMULT << std::endl;
+        std::cout << "Render Scale" << RENDERSCALE << std::endl;
     }
 
     if(IsKeyPressed(KEY_F11)) {
