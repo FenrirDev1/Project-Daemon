@@ -1,1 +1,16 @@
-﻿  Project Daemon.vcxproj -> C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\x64\Debug\Project Daemon.exe
+﻿  Tile.cpp
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(27,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  (compiling source file 'Tile.cpp')
+  
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Settings.h(30,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  (compiling source file 'Tile.cpp')
+  
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(29,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\Tile.cpp(33,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Project Daemon.vcxproj -> C:\Users\mlgfr\Documents\@Not games\Project Daemon\Project-Daemon\x64\Debug\Project Daemon.exe
