@@ -15,16 +15,6 @@ void GameManager::Initialise()
 
     m_Grid->Initialise();
 
-    //Creating hardcoded tilemap
-
-    int tiles[]{
-        0,0,0,0,0,
-        0,0,0,0,0,
-        0,0,0,0,0,
-        0,0,0,0,0,
-        0,0,0,0,0,
-    };
-
     
 #pragma endregion Grid
 

@@ -5,6 +5,7 @@
 
 #include "GameManager.h"
 
+#include <raymath.h>
 
 
 int main()
@@ -50,8 +51,7 @@ int main()
         accdt += dt;
      
         //DrawRectangle(CONVERTFROMGAMETOSCREENWIDTH((1920 - 200)), CONVERTFROMGAMETOSCREENHEIGHT(200), 100 * CONVERTSCREENWIDTHMULT, 100 * CONVERTSCREENHEIGHTMULT, RED);
-
-        
+        //std::cout << MOUSEPOS.x << "," << MOUSEPOS.y << std::endl;
 
         if (accdt >= updateTime) {
             accdt = 0;

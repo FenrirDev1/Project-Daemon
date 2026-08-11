@@ -15,18 +15,28 @@ void GridManager::Initialise()
 
 
 	bool seccolour = false;
+	bool initialCol = false;
 	float posx = 0;
 	float posy = 0;
 	int tileNo = 0;
 
+	float distanceX = tilewidth * gridwidth;
+	float distanceY = tileheight * gridheight;
+
+
+	float gridstartX = Settings::GridStartPosW + (((Settings::GridEndPosW - Settings::GridStartPosW) - distanceX) / 2.0f);
+	float gridstartY = Settings::GridStartPosH + (((Settings::GridEndPosH - Settings::GridStartPosH) - distanceY) / 2.0f);
+
+
 	for (int y = 0; y < gridheight; y++) 
 	{
-
+		seccolour = initialCol;
+		initialCol = !initialCol;
 		for (int x = 0; x < gridwidth; x++)
 		{
 
-			posx = (Settings::GridStartPosW)+(tilewidth * x);
-			posy = (Settings::GridStartPosH)+(tileheight * y);
+			posx = (gridstartX)+(tilewidth * x);
+			posy = (gridstartY)+(tileheight * y);
 
 
 			if (seccolour) {
@@ -57,20 +67,38 @@ void GridManager::Initialise()
 
 void GridManager::PreUpdate()
 {
+	//Update all tiles
+
+	for (Tile* tile : tiles)
+	{
+		tile->PreUpdate();
+	}
 
 }
 
 void GridManager::Update()
 {
+	//Update all tiles
+
+	for (Tile* tile : tiles)
+	{
+		tile->Update();
+	}
 }
 
 void GridManager::PostUpdate()
 {
+	//Update all tiles
+
+	for (Tile* tile : tiles)
+	{
+		tile->PostUpdate();
+	}
 }
 
 void GridManager::FramelessUpdate(float dt)
 {	
-	//new
+	//Update all tiles
 
 	for (Tile* tile : tiles)
 	{

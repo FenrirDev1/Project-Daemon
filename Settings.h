@@ -17,8 +17,8 @@ namespace Settings {
 
 	//Grid
 
-	constexpr int GridWidth = 21;
-    constexpr int  GridHeight = 11;
+	constexpr int GridWidth = 17;
+    constexpr int GridHeight = 17;
 
 	constexpr int TileWidth = 50;
 	constexpr int TileHeight = 50;
