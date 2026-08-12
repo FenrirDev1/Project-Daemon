@@ -16,14 +16,13 @@
 
 
 
-//Mouse stuff should be calculated once per framless update and used across as a reference, as to not recalculate as much.
 
-//Source for virtual mouse math https://github.com/raysan5/raylib/blob/master/examples/core/core_window_letterbox.c
-
-//Non Render scaled, Don't use unless having a reason -> Requires Raylib
+//Non Render scaled, Don't use unless having a reason 
+// -> Requires Raylib
 #define RAWMOUSEPOS GetMousePosition()
 
-#define MOUSEPOSUNCLAMPED Vector2{(RAWMOUSEPOS.x - (GetScreenWidth() - (GAMEWIDTH * (float)GetScreenWidth()/GAMEWIDTH)) * 0.5f) / RENDERSCALE,(RAWMOUSEPOS.y - (GetScreenHeight() - (GAMEHEIGHT * (float)GetScreenHeight()/GAMEHEIGHT)) * 0.5f) / RENDERSCALE}
 
-//Use MouseManager's var instead unless you need this. Needs Raymath
-#define MOUSEPOS Vector2Clamp(MOUSEPOSUNCLAMPED,Vector2{ 0, 0 }, Vector2{ (float)GAMEWIDTH, (float)GAMEHEIGHT })
+
+//Gets Mouse Position from Mousemanager 
+// -> needs to include Mouse.h
+#define MOUSEPOS Mousemanager::Instance()->MousePos

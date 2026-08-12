@@ -5,7 +5,7 @@
 
 void Tile::Initialise()
 {
-	mousePos = &Mousemanager::Instance()->MousePos;
+	mousePos = &MOUSEPOS;
 	HighlightColour = RED;
 	CurrentColour = DefaultColour;
 }
