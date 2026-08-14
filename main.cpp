@@ -8,6 +8,7 @@
 #include "Mouse.h"
 
 
+
 int main()
 {
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
@@ -39,7 +40,7 @@ int main()
 
     std::cout << "Render Scale" << RENDERSCALE << std::endl;
 
-
+ 
 
     while (game->WindowOpen())
     {
@@ -48,7 +49,7 @@ int main()
 
         mouse->FramelessUpdate(dt);
         game->FramelessUpdate(dt);
-
+     
         accdt += dt;
      
         //DrawRectangle(CONVERTFROMGAMETOSCREENWIDTH((1920 - 200)), CONVERTFROMGAMETOSCREENHEIGHT(200), 100 * CONVERTSCREENWIDTHMULT, 100 * CONVERTSCREENHEIGHTMULT, RED);

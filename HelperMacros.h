@@ -10,9 +10,9 @@
 //Requires Raylib
 #define RENDERSCALE MIN((float)GetScreenWidth()/GAMEWIDTH,(float)GetScreenHeight()/GAMEHEIGHT)
 //Requires Raylib
-#define CONVERTFROMGAMETOSCREENWIDTH(game) game*RENDERSCALE
+#define CONVERTFROMGAMETOSCREENWIDTH(game) (game)*RENDERSCALE
 //Requires Raylib
-#define CONVERTFROMGAMETOSCREENHEIGHT(game) game*RENDERSCALE
+#define CONVERTFROMGAMETOSCREENHEIGHT(game) (game)*RENDERSCALE
 
 
 

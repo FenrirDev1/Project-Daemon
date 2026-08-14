@@ -132,6 +132,8 @@
     <ClCompile Include="BaseObject.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="GridManager.cpp" />
+    <ClCompile Include="Handelement.cpp" />
+    <ClCompile Include="Handmanager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mouse.cpp" />
     <ClCompile Include="Tile.cpp" />
@@ -140,6 +142,8 @@
     <ClInclude Include="BaseObject.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="GridManager.h" />
+    <ClInclude Include="Handelement.h" />
+    <ClInclude Include="Handmanager.h" />
     <ClInclude Include="HelperMacros.h" />
     <ClInclude Include="Mouse.h" />
     <ClInclude Include="Settings.h" />

@@ -4,6 +4,7 @@
 
 //Change to file reading later -> XML most likely
 
+
 namespace Settings {
 	constexpr int screenWidth = 1920/2;
 	constexpr int screenHeight = 1080/2;
@@ -14,6 +15,8 @@ namespace Settings {
 
 	constexpr int ExitKey = KEY_DELETE;
 
+
+	//Stuff below isn't user level settings, will probably refactor to a const header/developersettings instead.
 
 	//Grid
 
@@ -30,7 +33,18 @@ namespace Settings {
 	constexpr int GridEndPosH = GAMEHEIGHT - 200;
 
 
-	
+	//Hand
+
+	//Card Ratio ~ 2.5w to 3.5h
+
+	constexpr float CardScale = 100;
+
+	constexpr float CardHeight = CardScale * 3.5f;
+	constexpr float CardWidth = CardScale *2.5f;
+
+	constexpr float CardBordersize = 10.0f;
+
+
 
 
 

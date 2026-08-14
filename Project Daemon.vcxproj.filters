@@ -47,6 +47,15 @@
     <Filter Include="Source Files\NonGame\MouseManager">
       <UniqueIdentifier>{d61c04d1-4158-40b6-9e0f-5b4eff44826e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Game\Hand">
+      <UniqueIdentifier>{6542b212-dfa8-449a-b485-454f0fb85d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hand\Handmanager">
+      <UniqueIdentifier>{f005cf08-7ac9-4e20-be02-e207830ba3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hand\HandElement">
+      <UniqueIdentifier>{41f09d23-8303-42bb-b115-d69b197b2766}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Settings.h">
@@ -70,6 +79,12 @@
     <ClInclude Include="Mouse.h">
       <Filter>Source Files\NonGame\MouseManager</Filter>
     </ClInclude>
+    <ClInclude Include="Handmanager.h">
+      <Filter>Source Files\Game\Hand\Handmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="Handelement.h">
+      <Filter>Source Files\Game\Hand\HandElement</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -89,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="Mouse.cpp">
       <Filter>Source Files\NonGame\MouseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Handmanager.cpp">
+      <Filter>Source Files\Game\Hand\Handmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Handelement.cpp">
+      <Filter>Source Files\Game\Hand\HandElement</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
